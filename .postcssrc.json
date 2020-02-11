@@ -1,0 +1,15 @@
+{
+    "parser": false,
+    "plugins": {
+        "postcss-import": {},
+        "postcss-url": { "url": "rebase" },
+        "postcss-for": {},
+        "postcss-each": {},
+        "postcss-mixins": {},
+        "postcss-nested": {},
+        "postcss-calc": {},
+        "postcss-custom-properties": {},
+        "postcss-custom-media": {},
+        "autoprefixer": {}
+    }
+}
