@@ -120,7 +120,7 @@ export default {
     @keyframes animation2 {
       to {
         width: 60%;
-        background-color: #126ac8;
+        background-color: #2c3e50;
       }
     }
 
