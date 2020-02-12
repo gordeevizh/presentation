@@ -1,7 +1,7 @@
 <template>
   <section class="slide14">
     <Page>
-      <Title>Вместо вывода - Анимации с точки зрения UX</Title>
+      <Title>Вместо вывода — Анимации с точки зрения UX</Title>
       <h2>
         Честно украдено из доклада Ильи Бирмана&nbsp;
         <a href="https://www.youtube.com/watch?v=igcKRMBHiqE" target="_blank" noopener noreferer>“Интерфейсные анимации”</a>
