@@ -1,5 +1,5 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <a href="https://docs.google.com/presentation/d/16SkTShPUOwfs7JFJTRuUAiuh4X789izziu3MCKwtYkM/edit?usp=sharing">Презентация</a>
   </div>
 </template>
