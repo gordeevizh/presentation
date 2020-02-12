@@ -12,12 +12,14 @@
 <script>
 import Slide1 from '@/slides/Slide1.vue';
 import Slide2 from '@/slides/Slide2.vue';
+import Slide3 from '@/slides/Slide3.vue';
 
 export default {
   name: 'Home',
   components: {
     Slide1,
     Slide2,
+    Slide3,
   },
   data() {
     return {

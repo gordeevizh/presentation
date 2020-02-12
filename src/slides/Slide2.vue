@@ -3,7 +3,7 @@
     <Page>
       <Title>Виды анимаций</Title>
       <Layout>
-        <List :items="animationsList" class="slide2--list"/>
+        <List :items="animationsList" class="slide2-list"/>
       </Layout>
     </Page>
   </section>
@@ -37,8 +37,9 @@ export default {
 
 <style lang="postcss" scoped>
 .slide2 {
-  &--list {
+  &-list {
     justify-self: center;
+    max-width: 960px;
   }
 }
 </style>

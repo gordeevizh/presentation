@@ -1,7 +1,7 @@
 <template>
   <ul class="list">
-    <li v-for="(item, index) in items" :key="index">
-      {{item.main}} <span>{{item.span}}</span>
+    <li v-for="(item, index) in items" :key="index" class="list-item">
+      {{item.main}} <span>{{item.span && item.span}}</span>
     </li>
   </ul>
 </template>
@@ -25,12 +25,16 @@ export default {
 <style lang="postcss" scoped>
 .list {
   text-align: left;
-  font-size: 36px;
-  line-height: 1.5em;
+  font-size: 40px;
+  line-height: 1.2em;
+
+  &-item {
+    margin-bottom: 1em;
+  }
 
   & span {
-    font-size: 28px;
-    opacity: 0.7;
+    font-size: 32px;
+    opacity: 0.8;
   }
 }
 </style>
