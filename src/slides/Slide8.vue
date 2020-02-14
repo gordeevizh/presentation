@@ -2,7 +2,7 @@
   <section class="slide8">
     <Page>
       <SubTitle>Пример</SubTitle>
-      <svg xmlns="http://www.w3.org/2000/svg" width="700" height="600" viewBox="0 0 700 600">
+      <svg xmlns="http://www.w3.org/2000/svg" class="svgImage" viewBox="0 0 700 600">
     <path id="path5419" d="m 627.55727,563.46269 -34.09265,-47.72968 39.14342,27.7792 z"/>
     <path id="path4232" d="m 602.30346,512.19745 -8.83884,3.53556 39.14342,27.7792 z"/>
     <path id="path4236" d="m 602.30346,512.19745 -8.83884,3.53556 -1.26268,-35.35533 z"/>
@@ -250,13 +250,14 @@ export default {
 .slide8 {
 
   svg {
+    width: 100%;
     display: block;
     margin: 0 auto;
   }
 
   path {
     fill: none;
-    stroke: black;
+    stroke: #2c3e50;
     stroke-width: 4;
     stroke-linecap: round;
     stroke-linejoin: round;

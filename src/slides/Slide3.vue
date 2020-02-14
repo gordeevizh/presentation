@@ -75,7 +75,11 @@ export default {
   }
 
   &-list {
-    font-size: 24px;
+    font-size: 2vw;
+
+    @media (max-width: 1024px) {
+      font-size: 5vw;
+    }
   }
 }
 
@@ -84,6 +88,12 @@ export default {
   align-items: center;
   justify-content: flex-start;
   margin-left: 60px;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    margin-left: 1em;
+    align-items: flex-start;
+  }
 
   &-label {
     font-weight: 600;

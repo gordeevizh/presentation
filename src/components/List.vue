@@ -25,16 +25,30 @@ export default {
 <style lang="postcss">
 .list {
   text-align: left;
-  font-size: 40px;
+  font-size: 3vw;
   line-height: 1.2em;
+  margin: 0;
+  display: block;
+
+  @media (max-width: 1024px) {
+    font-size: 5vw;
+  }
 
   &-item {
     margin-bottom: 1em;
+
+    @media (max-width: 1024px) {
+      margin-right: 3em;
+    }
   }
 
   &-span {
-    font-size: 32px;
+    font-size: 2.4vw;
     opacity: 0.8;
+
+    @media (max-width: 1024px) {
+      font-size: 4.4vw;
+    }
   }
 }
 </style>

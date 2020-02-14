@@ -5,11 +5,17 @@
     @keyup.right="showNext"
     @keyup.left="showPrev"
   >
-    <component :is="currentSlide"/>
+    <SwipeChecker
+      @swipeLeft="showNext"
+      @swipeRight="showPrev"
+    >
+      <component :is="currentSlide"/>
+    </SwipeChecker>
   </section>
 </template>
 
 <script>
+import SwipeChecker from '@/components/SwipeChecker.vue';
 import Slide1 from '@/slides/Slide1.vue';
 import Slide2 from '@/slides/Slide2.vue';
 import Slide3 from '@/slides/Slide3.vue';
@@ -30,6 +36,7 @@ import Slide16 from '@/slides/Slide16.vue';
 export default {
   name: 'Home',
   components: {
+    SwipeChecker,
     Slide1,
     Slide2,
     Slide3,
@@ -50,6 +57,8 @@ export default {
   data() {
     return {
       currentSlideIndex: 1,
+      touch: 0,
+      moved: {},
     };
   },
   computed: {

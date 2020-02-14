@@ -12,6 +12,12 @@ export default {
 
 <style lang="postcss" scoped>
   .title {
-    font-size: 80px;
+    font-size: 6vw;
+    margin: 4vw 1vw;
+
+    @media (max-width: 1024px) {
+      font-size: 10vw;
+      margin: 5vw 1vw;
+    }
   }
 </style>

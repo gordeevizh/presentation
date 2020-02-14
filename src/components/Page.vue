@@ -14,7 +14,7 @@ export default {
 .page {
   background-color: #f9d30b;
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   display: block;
   position: absolute;
   overflow: hidden;

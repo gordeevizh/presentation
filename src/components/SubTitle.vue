@@ -12,6 +12,12 @@ export default {
 
 <style lang="postcss" scoped>
   .subTitle {
-    font-size: 60px;
+    font-size: 3.5vw;
+    margin: 2vw 1vw;
+
+    @media (max-width: 1024px) {
+      font-size: 7vw;
+      margin: 7vw 1vw;
+    }
   }
 </style>
